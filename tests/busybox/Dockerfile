@@ -53,4 +53,5 @@ RUN echo "Running tests ${CACHE_INVALIDATE}" \
 	# && ./a.out | grep \
 	# 	-e 'Hello World'
 
+# docker run --rm --env-file ./out/.env -it metacall/guix_gcc_example_test:busybox
 ENTRYPOINT ["sh"]
